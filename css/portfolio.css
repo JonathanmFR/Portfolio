@@ -1,8 +1,12 @@
 /* Paramètre de base */
+
+
+
+
 .musique{
     text-align: center;
     font-family: system-ui;
-    padding-top: 2em;
+    margin-bottom: 2em;
 }
 
 body{
