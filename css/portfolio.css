@@ -1,7 +1,9 @@
 /* Paramètre de base */
 
-
-
+/*
+.video{
+    margin-left: 15em;
+}*/
 
 .musique{
     text-align: center;
@@ -213,8 +215,8 @@ header{
             text-align: center;
             line-height:45px;
             font-size: 25px;
-            margin-right: 2em;
-            margin-left: 5em;
+            margin-right: 5em;
+            margin-left: 7em;
             font-family: system-ui;
         }
 
@@ -222,8 +224,8 @@ header{
             color: rgb(255, 255, 255);
             line-height:45px;
             font-size: 25px;
-            margin-right: 2em;
-            margin-left: 13em;
+            margin-right: 3em;
+            margin-left: 7em;
             margin-top: 2em;
             font-family: system-ui;
             text-align: center;
