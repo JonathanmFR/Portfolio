@@ -22,43 +22,51 @@ ul li{
 	vertical-align:middle;
 }
 i
-img{
-   padding-left: 15em;
+li img{
+    filter: grayscale(80%);
+
 }
 
+/*
 @keyframes slide-image{
 	from,20%  {margin-left:   0px;}
 	20%,40%   {margin-left:-220px;}
 	40%,60%   {margin-left:-440px;}
 	60%,80%   {margin-left:-660px;}
 	80%,to    {margin-left:-880px;}
-}
+}*/
 
 #video{
     margin-left: 8em;
 }
 
+body { /* Location of the image */ 
+    background: url("../images/fond.jpg"); 
+    /* Background image is centered vertically and horizontally at all times */ 
+    background-position: center center; 
+    /* Background image doesn’t tile */ 
+    background-repeat: no-repeat; 
+    /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */ 
+    background-attachment: fixed; 
+    /* This is what makes the background image rescale based on the container’s size */ 
+    background-size: cover; 
 
+ }
 body{
     margin: 0px;
     padding: 0px;
     text-align: center;
-	background-color: #1b1818;
 	color: aliceblue;
 }
 
 header{
-	background-image: url("../images/light.png");
-	background-size: cover;
+    background-color: rgb(41, 44, 47, 0.8) ;
 }
 
-
-/*Le titre de la page*/
-#portfolio .heading h1 {
-    text-align: center;
-    padding-top: 2em;
-    padding-bottom: 3em;
+.titre_page{
+    color: rgb(252, 252, 252);
 }
+
 
 /*Bien placer les categories dans la page*/
 .container-service {
