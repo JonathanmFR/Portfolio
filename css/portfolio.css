@@ -21,11 +21,12 @@ ul li{
 	text-align:center;
 	vertical-align:middle;
 }
-i
-li img{
-    filter: grayscale(80%);
 
+.fond{
+    background-color: rgba(25, 25, 25, 0.8);
+    
 }
+
 
 /*
 @keyframes slide-image{
@@ -60,11 +61,13 @@ body{
 }
 
 header{
-    background-color: rgb(41, 44, 47, 0.8) ;
+    background-color: rgba(0, 0, 0, 0.8) ;
+    
 }
 
-.titre_page{
+nav h1{
     color: rgb(252, 252, 252);
+    text-align: center;
 }
 
 
