@@ -15,7 +15,7 @@ body{
     margin: 0px;
     padding: 0px;
     text-align: center;
-	background-color: black;
+	background-color: #1b1818;
 	color: aliceblue;
 }
 
@@ -24,10 +24,6 @@ header{
 	background-size: cover;
 }
 
-/*Couleur de fond*/
-#portfolio {
-    background-color: #1b1818	;
-}
 
 /*Le titre de la page*/
 #portfolio .heading h1 {
