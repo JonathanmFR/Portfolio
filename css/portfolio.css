@@ -1,5 +1,35 @@
 /* Paramètre de base */
 
+section h2{
+    margin-top: 2em;
+    font-family: system-ui;
+}
+
+
+.presentation{
+    width: 100%;
+    margin-top: 2em;
+    color: rgb(255, 255, 255);
+        text-align:justify;
+        line-height:45px;
+        font-size: 25px;
+        margin-left: 10em;
+        font-family: system-ui;
+}
+
+.section_pres{
+    display: flex;
+
+}
+
+.pp{
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 5em;
+    float:left;
+}
+
 ul,li { margin:0 ; padding:0 }
 div#conteneur-logo {      
 	width:90%; /* Soit 220px * 3 images */
