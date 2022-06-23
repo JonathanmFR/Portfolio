@@ -24,6 +24,8 @@ ul li{
 
 .fond{
     background-color: rgba(25, 25, 25, 0.8);
+    margin-left: 3em;
+    margin-right: 3em;
     
 }
 
@@ -140,6 +142,29 @@ nav h1{
     }
 
 
+     /*Texte du projet*/
+     #text-pc{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height:45px;
+        font-size: 25px;
+        margin-right: 5em;
+        margin-left: 7em;
+        font-family: system-ui;
+    }
+
+    #text-pc-1{
+        color: rgb(255, 255, 255);
+        line-height:45px;
+        font-size: 24px;
+        margin-right: 2em;
+        margin-left: 7em;
+        margin-top: 2em;
+        font-family: system-ui;
+        text-align: center;
+    }
+
+
 
 /*Adapter pour les ecrans de Smartphone*/
 @media only screen and (max-width:991px) {
@@ -175,10 +200,28 @@ nav h1{
     #logo-pc{
         display: none;
     }
-    /*N'affiche pas le texte destiner pour les ecrans de PC*/
-    #text-pc{
-        display: none;
+    
+     /*Texte du projet*/
+     #text-pc{
+        text-align: center;
+        line-height:45px;
+        font-size: 25px;
+        margin-right: 5em;
+        margin-left: 7em;
+        font-family: system-ui;
     }
+
+    #text-pc-1{
+        line-height:45px;
+        font-size: 25px;
+        margin-right: 3em;
+        margin-left: 7em;
+        margin-top: 2em;
+        font-family: system-ui;
+        text-align: center;
+    }
+
+
 }
 
     /*Adapter pour les ecrans de tablette*/
@@ -222,10 +265,8 @@ nav h1{
         }
         /*N'affiche pas le texte destiner pour 
         les ecrans de PC*/
-        #text-pc{
-            display: none;
-        }
     }
+         
                        
     
     /*Adapter pour les ecrans de pc*/
@@ -244,28 +285,7 @@ nav h1{
              margin-left: 1em ;
         }
 
-        /*Texte du projet*/
-        #text-pc{
-            color: rgb(255, 255, 255);
-            text-align: center;
-            line-height:45px;
-            font-size: 25px;
-            margin-right: 5em;
-            margin-left: 7em;
-            font-family: system-ui;
-        }
 
-        #text-pc-1{
-            color: rgb(255, 255, 255);
-            line-height:45px;
-            font-size: 25px;
-            margin-right: 3em;
-            margin-left: 7em;
-            margin-top: 2em;
-            font-family: system-ui;
-            text-align: center;
-        }
-        
         
         /*N'affiche pas le texte destiner pour les ecrans 
         de smartphone et tablette*/
